@@ -1,0 +1,6 @@
+streamlit>=1.36
+yfinance
+pandas
+requests
+tzdata
+streamlit-autorefresh
