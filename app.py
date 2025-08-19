@@ -11,7 +11,7 @@ st_autorefresh(interval=3 * 60 * 1000, key="auto")  # 3 minutos
 # ======================== Config básica ========================
 ASSETS_DIR = "assets"
 FAVICON_PATH = os.path.join(ASSETS_DIR, "favicon.ico")
-LOGO_PATH = os.path.join(ASSETS_DIR, "logo.png")
+LOGO_PATH = os.path.join(ASSETS_DIR, "LOGO.png")
 
 st.set_page_config(
     page_title="The Omaha Radar",
@@ -490,3 +490,4 @@ st.caption(
     "Calidad: ROE (bancos) o D/E (resto). Umbrales y pesos configurables. Caché 5 minutos. "
     "El panel 'Alertas (Universo)' lee la tabla 'alerts' generada por el escáner programado."
 )
+
